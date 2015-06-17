@@ -18,27 +18,38 @@ Once the project moves into development, the press release can be used as a touc
  
 ## Heading ##
   > Name the product in a way the reader (i.e. your target customers) will understand.
+Syntax Viewer
+
 
 ## Sub-Heading ##
   > Describe who the market for the product is and what benefit they get. One sentence only underneath the title.
+A new tool for writers to see sentence structure.
 
 ## Summary ##
   > Give a summary of the product and the benefit. Assume the reader will not read anything else so make this paragraph good.
+Syntax Viewer 
 
 ## Problem ##
   > Describe the problem your product solves.
+Complex and varied structure is a hallmark of good writing, but it can be easy for writers to use the same sentences and paragraphs again and again.
 
 ## Solution ##
   > Describe how your product elegantly solves the problem.
+Syntax Viewer uses Stanford's natural language processor to break sentences down into their constituent parts. It then uses this data to color-code the clauses
+and relationships in your writing, and lines sentences up side-by-side to reveal similarities and differences between them.
+
 
 ## Quote from You ##
-  > A quote from a spokesperson in your company.
+  > "There's no way this is going to work." - Peter Espe
 
 ## How to Get Started ##
-  > Describe how easy it is to get started.
+  > Just go to www.syntaxParser.com and start typing. Hit "Parse" at any time to see the structure of what you've written.
 
 ## Customer Quote ##
   > Provide a quote from a hypothetical customer that describes how they experienced the benefit.
+"I use this every day." - Jane Austen
+"Easy to use, even drunk." - Ernest Hemingway
+"This product is the shit." - Abraham Lincoln
 
 ## Closing and Call to Action ##
   > Wrap it up and give pointers where the reader should go next.

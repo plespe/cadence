@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>nlp-viewer</title>
+    <link rel="stylesheet" href="styles/styles.css">
+
+    <!-- dependencies -->
+    <script src="../node_modules/underscore/underscore-min.js"></script>
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../node_modules/backbone/backbone-min.js"></script>
+ 
+    <!-- your scripts -->
+    <script src="app.js"></script>
+  </head>
+  <body>
+    <div>
+      <h1>Minimally non-Viable Parser</h1>
+      <div id="structured">
+        <h2>Structured Text</h2>
+        <br />
+      </div>
+      <form id="main">
+      <!-- <div> -->
+        <textarea id="input" type="text" placeholder="Start writing"></textarea>
+        <button id="parse-text">See Structure</button>
+      <!-- </div> -->
+    </form>
+    </div>
+    <script type="text/javascript">
+      $(function(){
+          var sentences = new Sentences();
+          var formView = new FormView({el: $('#main'), model: sentences});
+          var parsed = new SentencesView({el: $('#structured'), model: sentences});
+        });
+    </script>
+  </body>
+</html>
